@@ -4,21 +4,19 @@ import java.util.Scanner;
 
 public class Principal {
 	
-    public static void main(String[] args) {
-
-        double salario, vendas;
+  public static void main(String[] args) {
+	  
+	  	double peso;
 
         Scanner sc = new Scanner(System.in);
-        System.out.print("Digite o seu salário fixo: ");
-        salario = sc.nextDouble();
+        System.out.print("Digite o seu peso: ");
+        peso = sc.nextDouble();
 
-        System.out.print("Digite o valor das vendas: ");
-        vendas = sc.nextDouble();
+        double pesoEngordar = peso + (peso * 15/100);
+        double pesoEmagrecer = peso - (peso * 20/100);
 
-        	double comissao = vendas * 4/100;
-        double salarioFinal = salario + comissao;
-
-        System.out.println("Comissão, R$ " + comissao);
-        System.out.println("Salário final é, R$ " + salarioFinal);
-    }
+        System.out.println("Seu peso será " + pesoEngordar + " se você engordar 15%");
+        System.out.println("Seu peso será " + pesoEmagrecer + " se você emagrecer 20%");
+		
+		}
 }
