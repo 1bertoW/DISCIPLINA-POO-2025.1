@@ -5,14 +5,14 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/ByJoao1/DISCIPLINA-POO-2025?style=flat-square)
 ![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow?style=flat-square)
 
-> 🔍 **Capítulos 06 (Vetores) e 08 (Sub-rotinas)**  
-> 🎯 *Baseado em: Fundamentos da Programação de Computadores – Ascencio & Campos (2012)*  
-> ✨ **10 primeiros exercícios resolvidos** de cada capítulo  
-> 📚 Foco em: lógica, modularização e domínio de estruturas lineares
+>  **Capítulos 06 (Vetores) e 08 (Sub-rotinas)**  
+>  *Baseado em: Fundamentos da Programação de Computadores – Ascencio & Campos (2012)*  
+>  **10 primeiros exercícios resolvidos** de cada capítulo  
+>  Foco em: lógica, modularização e domínio de estruturas lineares
 
 ---
 
-## 📁 Organização dos Arquivos
+## 📁 Organização de Arquivos
 
 ```bash
 Lista03/
@@ -92,25 +92,3 @@ gcc Cap06-Vetores/ex01.c -o ex01 && ./ex01
 ```
 
 ---
-
-## 🎓 Autor
-
-**João Pedro Abreu da Costa**
-📍 Estudante de Informática – IFCE
-📅 Semestre 2025.1
-📧 [joao.costa@ifce.edu.br](joao.costa@ifce.edu.br)
-🌐 [GitHub](https://github.com/ByJoao1)
-
----
-
-## ⭐ Contribua
-
-Se este projeto foi útil para você:
-
-* Deixe uma ⭐ no repositório
-* Compartilhe com seus colegas
-* Contribua com melhorias ou correções
-
----
-
-> 🧩 *“Programar bem é saber dividir e conquistar: quebre o problema, resolva com lógica, e o código claro virá como consequência.”*
