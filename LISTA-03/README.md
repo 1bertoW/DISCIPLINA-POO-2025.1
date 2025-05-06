@@ -90,5 +90,3 @@ cd Lista03
 # Compile e execute os arquivos individualmente
 gcc Cap06-Vetores/ex01.c -o ex01 && ./ex01
 ```
-
----
