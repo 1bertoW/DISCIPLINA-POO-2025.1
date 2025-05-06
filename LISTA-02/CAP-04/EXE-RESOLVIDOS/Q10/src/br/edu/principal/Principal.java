@@ -1,38 +1,50 @@
 
-  package br.edu.principal;
-  import java.time.LocalDate;
-  import java.util.Scanner;
-
-  public class Principal {
-      public static void main(String[] args) {
-          Scanner scanner = new Scanner(System.in);
-
-          System.out.println("Digite a primeira data:");
-          System.out.print("Dia: ");
-          int dia1 = scanner.nextInt();
-          System.out.print("Mês: ");
-          int mes1 = scanner.nextInt();
-          System.out.print("Ano: ");
-          int ano1 = scanner.nextInt();
-
-          System.out.println("Digite a segunda data:");
-          System.out.print("Dia: ");
-          int dia2 = scanner.nextInt();
-          System.out.print("Mês: ");
-          int mes2 = scanner.nextInt();
-          System.out.print("Ano: ");
-          int ano2 = scanner.nextInt();
-
-          LocalDate data1 = LocalDate.of(ano1, mes1, dia1);
-          LocalDate data2 = LocalDate.of(ano2, mes2, dia2);
-
-          if (data1.isAfter(data2)) {
-              System.out.println("A primeira data é cronologicamente maior: " + data1);
-          } else if (data2.isAfter(data1)) {
-              System.out.println("A segunda data é cronologicamente maior: " + data2);
-          } else {
-              System.out.println("As duas datas são iguais.");
-          }
-
-      }
-  }
+package br.edu.principal;
+import java.util.Scanner;
+public class Principal {
+    public static void main(String[] args) {
+    	int d1, m1, a1, d2, m2, a2;
+    	
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Digite a primeira data");
+        System.out.print(" Dia (dd): ");
+        d1 = sc.nextInt();
+        System.out.print(" Mês (mm): ");
+        m1 = sc.nextInt();
+        System.out.print(" Ano (aaaa): ");
+        a1 = sc.nextInt();
+        System.out.println("Digite a segunda data");
+        System.out.print(" Dia (dd): ");
+        d2 = sc.nextInt();
+        System.out.print(" Mês (mm): ");
+        m2 = sc.nextInt();
+        System.out.print(" Ano (aaaa): ");
+        a2 = sc.nextInt();
+        
+        if(a1 > a2){
+        	System.out.println("A maior data é, " + d1 + "/" + m1 + "/" + a1);
+        } else {
+        	if(a2 > a1){
+        	System.out.println("A maior data é, " + d2 + "/" + m2 + "/" + a2);
+        	}
+        } 
+        
+        if(m1 > m2){
+        	System.out.println("A maior data é, " + d1 + "/" + m1 + "/" + a1);
+        } else {
+        	if(m2 > m1){
+        	System.out.println("A maior data é, " + d2 + "/" + m2 + "/" + a2);
+        	}
+        }
+        
+        if(d1 > d2){
+        	System.out.println("A maior data é, " + d1 + "/" + m1 + "/" + a1);
+        } else {
+        	if(d2 > d1){
+        	System.out.println("A maior data é, " + d2 + "/" + m2 + "/" + a2);
+        	} else {
+        	System.out.println("As datas são iguais.");
+        	}
+        } 
+    }
+}
