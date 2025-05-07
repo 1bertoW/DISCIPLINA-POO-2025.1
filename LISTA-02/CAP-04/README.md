@@ -1,72 +1,55 @@
-# 💻 Lista 02 – Estruturas Condicional & de Repetição
+## Cap. 4 - Estrutura Condicional
+## EXERCICIOS RESOLVIDOS
 
-📘 Baseada no livro "Fundamentos da Programação de Computadores" – Ascencio & Campos (2012)
-🎯 Foco: Capítulos 4 (Condicional) e 5 (Repetição)
+1 - A nota final de um estudante é calculada a partir de três notas atribuídas, respectivamente, a um trabalho de laboratório, a uma avaliação semestral e a um exame final. A média das três notas mencionadas obedece aos pesos a seguir: 2, 3 e 5 Faça um programa que receba as três notas, calcule e mostre a média ponderada.
 
-> 🧠 Exercícios voltados ao desenvolvimento da lógica com tomadas de decisão e laços de repetição.
+2 - Faça um programa que receba três notas de um aluno, calcule e mostre a média aritmética e a mensagem constante na tabela a seguir. Aos alunos que ficaram para exame, calcule e mostre a nota que deverão tirar para serem aprovados, considerando que a média exigida é 6,0.
 
----
+3 - Faça um programa que receba dois números e mostre o maior.
 
-## 🧩 Estrutura da Lista
+4 - Faça um programa que receba três números e mostre-os em ordem crescente. Suponha que o usuário digitará três números diferentes.
 
-| 🧠 Tópico              | 📚 Capítulo | 📌 Conteúdo                                                     |
-| ---------------------- | ----------- | --------------------------------------------------------------- |
-| Estrutura Condicional  | Capítulo 4  | if, else, switch, operadores lógicos                      |
-| Estrutura de Repetição | Capítulo 5  | for, while, do-while, séries, médias, fatorial, Fibonacci |
+5 - Faça um programa que receba três números obrigatoriamente em ordem crescente e um quarto núme- ro que não siga essa regra. Mostre, em seguida, os quatro números em ordem decrescente. Suponha que o usuário digitará quatro números diferentes.
 
----
+6 - Faça um programa que receba um número inteiro e verifique se é par ou ímpar.
 
-## 🔎 Organização
+7 - Faça um programa que receba quatro valores: I, A, B e C. Desses valores, I é inteiro e positivo, A, B e C são reais. Escreva os números A, B e C obedecendo à tabela a seguir. Suponha que o valor digitado para I seja sempre um valor válido, ou seja, 1, 2 ou 3, e que os números digitados sejam diferentes um do outro.
 
-Os exercícios desta lista foram desenvolvidos para reforçar a aplicação prática das estruturas condicionais e dos laços de repetição. Cada item foi implementado com foco em:
+8 - Faça um programa que mostre o menu de opções a seguir, receba a opção do usuário e os dados neces- sários para executar cada operação.
 
-* Clareza na lógica
-* Boas práticas de codificação
-* Modularização sempre que possível
+Menu de opções:
 
-Os arquivos seguem o padrão:
+Somar dois números.
+Raiz quadrada de um número.
+Digite a opção desejada:
 
-bash
-ExNN_DescricaoBreve.java
+9 - Faça um programa que mostre a data e a hora do sistema nos seguintes formatos: DD/MM/AAAA – mês por extenso e hora: minuto.
 
+10 - Faça um programa que determine a data cronologicamente maior entre duas datas fornecidas pelo usuário. Cada data deve ser composta por três valores inteiros, em que o primeiro representa o dia, o segundo, o mês e o terceiro, o ano.
 
-> Exemplo: Ex04_OrdenarTresValores.java
+EXERCICIOS PROPOSTOS
+1 - Faça um programa que receba quatro notas de um aluno, calcule e mostre a média aritmética das notas e a mensagem de aprovado ou reprovado, considerando para aprovação média 7.
 
----
+2 - Faça um programa que receba duas notas, calcule e mostre a média aritmética e a mensagem, Reprovado, Exame e Aprovado.
 
-## 🚀 Como Executar
+3 - Faça um programa que receba dois números e mostre o menor.
 
-bash
-# Navegue até a pasta da lista
-cd Lista02
+4 - Faça um programa que receba três números e mostre o maior.
 
-# Compile e execute um exercício
-javac Ex04.java
-java Ex04
+5 - Faça um programa que receba dois números e execute as operações listadas a seguir, de acordo com a escolha do usuário. Se a opção digitada for inválida, mostre uma mensagem de erro e termine a execução do programa. Lembre-se de que, na operação 4, o segundo número deve ser diferente de zero.
 
+6 - Faça um programa que receba dois números e execute uma das operações listadas a seguir, de acordo com a escolha do usuário. Se for digitada uma opção inválida, mostre mensagem de erro e termine a execução do programa. As opções são:
 
----
+a) O primeiro número elevado ao segundo número.
 
-## 📁 Organização dos Arquivos
+b) Raiz quadrada de cada um dos números.
 
-text
-Lista02/
-├── Ex01_MediaPonderada.java
-├── Ex02_AprovacaoNotas.java
-├── Ex03_MaiorNumero.java
-├── ...
-└── README.md
+c) Raiz cúbica de cada um dos números.
 
+7 - Uma empresa decide dar um aumento de 30% aos funcionários com salários inferiores a R$ 500,00. Faça um programa que receba o salário do funcionário e mostre o valor do salário reajustado ou uma mensagem, caso ele não tenha direito ao aumento.
 
----
+8 - Faça um programa para calcular e mostrar o salário reajustado de um funcionário. O percentual de aumento encontra-se na tabela a seguir.
 
-## ⭐ Contribua com o Projeto!
+9 - Um banco concederá um crédito especial aos seus clientes, de acordo com o saldo médio no último ano. Faça um programa que receba o saldo médio de um cliente e calcule o valor do crédito, de acordo com a tabela a seguir. Mostre o saldo médio e o valor do crédito.
 
-* 🌟 Dê uma estrela no repositório
-* 🛠 Envie melhorias via pull request
-* 💬 Sugira novos exercícios
-
----
-
-> 💡 “Praticar lógica diariamente é o melhor caminho para dominar a programação.”
-
+10 - O preço ao consumidor de um carro novo é a soma do custo de fábrica com a porcentagem do distri- buidor e dos impostos, ambos aplicados ao custo de fábrica. As porcentagens encontram-se na tabela a seguir. Faça um programa que receba o custo de fábrica de um carro e mostre o preço ao consumidor.
